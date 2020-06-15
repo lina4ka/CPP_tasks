@@ -29,16 +29,16 @@ public class Main {
     String operation(int N, int a, int b)
     {
         if ((a * b) == N) {
-            return "умножить";
+            return "ГіГ¬Г­Г®Г¦ГЁГІГј";
         } else {
             if ((a / b) == N) {
-                return "поделить";
+                return "ГЇГ®Г¤ГҐГ«ГЁГІГј";
             } else {
                 if ((a + b) == N) {
-                    return "прибавить";
+                    return "ГЇГ°ГЁГЎГ ГўГЁГІГј";
                 } else {
                     if ((a - b) == N) {
-                        return "вычесть";
+                        return "ГўГ»Г·ГҐГ±ГІГј";
                     } else {
                         return "none";
                     }
